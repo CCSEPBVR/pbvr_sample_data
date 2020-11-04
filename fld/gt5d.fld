@@ -1,0 +1,21 @@
+# AVS
+nstep=5
+ndim=3
+dim1=220
+dim2=220
+dim3=48
+nspace=3
+veclen=2
+data=float
+field=irregular
+coord 1 file=co3d.dat filetype=binary skip=0 stride=3 close=0
+coord 2 file=co3d.dat filetype=binary skip=4 stride=3 close=0
+coord 3 file=co3d.dat filetype=binary skip=8 stride=3 close=0
+variable 1 file=pd3d.dat filetype=binary skip=4 close=0
+variable 2 file=psid.dat filetype=binary skip=4 close=1
+EOT
+DO
+variable 1 file=pd3d.dat filetype=binary skip=4 close=0
+variable 2 file=psid.dat filetype=binary skip=4 close=1
+EOT
+ENDDO

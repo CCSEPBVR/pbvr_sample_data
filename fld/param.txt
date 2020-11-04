@@ -1,0 +1,6 @@
+#
+in_dir=./
+field_file=gt5d.fld
+start_step=0
+end_step=4
+

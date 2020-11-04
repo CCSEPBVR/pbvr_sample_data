@@ -1,0 +1,6 @@
+#
+in_dir=./
+ucd_inp=spx.inp
+start_step=1
+end_step=1
+out_prefix=case

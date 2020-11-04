@@ -1,0 +1,6 @@
+#
+in_dir=./
+vtk_in_prefix=stpoints_scalars
+vtk_in_suffix=vtk
+start_step=1
+end_step=4

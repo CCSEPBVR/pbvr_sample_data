@@ -1,0 +1,6 @@
+#
+in_dir=./
+stl_bin_file=bin_sample.stl
+start_step=1
+end_step=1
+out_prefix=case

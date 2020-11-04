@@ -1,0 +1,5 @@
+#
+in_dir=./
+plot3d_config_file=singleGrid_s.cfg
+out_prefix=case
+
